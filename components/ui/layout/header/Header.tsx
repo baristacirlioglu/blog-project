@@ -6,7 +6,7 @@ import MobileMenu from './MobileMenu'
 
 const Header = () => {
   return (
-    <div className='bg-mysecondarycolor shadow-sm top-0'>
+    <div className='bg-blue-400 shadow-sm top-0'>
         <div className='container mx-auto flex items-center justify-between px-4 py-3'>
             <Link href='/' className='text-2xl text-white font-bold'>
                 Logo

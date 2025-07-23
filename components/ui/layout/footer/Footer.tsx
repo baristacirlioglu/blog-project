@@ -5,7 +5,7 @@ import { Facebook, Instagram, Linkedin} from 'lucide-react'
 
 const Footer = () => {
   return (
-    <div className='bg-myprimarycolor text-white py-6'>
+    <div className='bg-gray-600 text-white py-6'>
         <div className='container mx-auto flex flex-col md:flex-row justify-between items-center'>
         <div className='text-center md:text-left space-y-4'>
             <Link href='/' className='text-2xl text-white font-bold'>
