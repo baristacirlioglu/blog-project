@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Button } from '../../button'
-import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -31,13 +31,13 @@ const Footer = () => {
 
             <div className='md:mt-0 mt-8 space-x-4'>
                 <Button variant="secondary" size={'icon'}>
-                    <FiFacebook/>
+                    <FaFacebook/>
                 </Button>
                 <Button variant="secondary" size={'icon'}>
-                    <FiInstagram/>
+                    <FaInstagram/>
                 </Button>
                 <Button variant="secondary" size={'icon'}>
-                    <FiLinkedin/>
+                    <FaLinkedin/>
                 </Button>
             </div>
 
