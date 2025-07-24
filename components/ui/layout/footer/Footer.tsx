@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Button } from '../../button'
-import { Facebook, Instagram, Linkedin} from 'lucide-react'
+import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -31,13 +31,13 @@ const Footer = () => {
 
             <div className='md:mt-0 mt-8 space-x-4'>
                 <Button variant="secondary" size={'icon'}>
-                    <Facebook/>
+                    <FiFacebook/>
                 </Button>
                 <Button variant="secondary" size={'icon'}>
-                    <Instagram/>
+                    <FiInstagram/>
                 </Button>
                 <Button variant="secondary" size={'icon'}>
-                    <Linkedin/>
+                    <FiLinkedin/>
                 </Button>
             </div>
 
