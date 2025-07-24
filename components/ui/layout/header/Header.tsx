@@ -3,10 +3,11 @@ import React from 'react'
 import { Button } from '../../button'
 import { Menu, Search, User } from 'lucide-react'
 import MobileMenu from './MobileMenu'
+import { ModeToggle } from '@/components/ModeToggle'
 
 const Header = () => {
   return (
-    <div className='bg-blue-400 shadow-sm top-0'>
+    <div className='bg-my-primary shadow-sm top-0'>
         <div className='container mx-auto flex items-center justify-between px-4 py-3'>
             <Link href='/' className='text-2xl text-white font-bold'>
                 Logo
@@ -36,6 +37,7 @@ const Header = () => {
                         <User/>
                     </Button>
                 </Link>
+                <ModeToggle/>
                 <MobileMenu/>
             </div>
 
